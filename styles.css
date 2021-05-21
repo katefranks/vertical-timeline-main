@@ -42,6 +42,7 @@ ul {
  .timeline-event:nth-child(even) .timeline-content {
    float: right;
    background-color: #F6F5F5;
+   height: 400px;
  }
 
  .timeline-event::after {
@@ -56,6 +57,7 @@ ul {
 
  #middlecard {
    margin-right: 115px;
+   /* height: 500px; */
  }
 
 .date1 {
@@ -68,13 +70,15 @@ ul {
 }
 
 .date2 {
+  display: inline-block;
   color: #FFF;
   background-color: #EB515C;
   width: 100px;
   height: 40px;
-  padding-left: 10px;
+  text-align: center;
+  /* padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 10px; */
 }
 
 h1 {
@@ -83,9 +87,10 @@ h1 {
 }
 
 p {
+  margin-top: 20px;
   margin-right: 20px;
   margin-left: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
  a {
@@ -97,6 +102,15 @@ p {
    text-decoration: none;
    border-radius: 3px;
 
+ }
+
+ .timeline-header {
+   background: blue;
+   height: 50%;
+   background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/dog-relaxing-in-black-and-white-daniel-dan.jpg");
+}
+
+   /* background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/dog-relaxing-in-black-and-white-daniel-dan.jpg");
  }
 
 
